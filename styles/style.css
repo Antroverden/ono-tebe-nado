@@ -1,1 +1,78 @@
-/* место для вашего кода */
+.body {
+    width: 1440px;
+    height: 2844px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 597px 148px 355px 240px;
+    width: 1340px;
+    height: 109px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 92px;
+}
+
+.header__menu {
+    border-style: solid;
+    border-color: blue;
+    width: 388px;
+    height: 23px;
+    flex-shrink: 0;
+    margin: auto 0;
+}
+
+.header__links-list{
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__links-list-item_no-bullit{
+    float: left;
+    list-style: none;
+}
+
+.header__links-list-item{
+    float: left;
+    margin-left: 30px;
+    list-style: circle;
+    text-decoration: underline;
+}
+
+.header__logo-image{
+    width: 148px;
+    height: 105px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: blue;
+    grid-column-start: 2;
+}
+
+address { all: initial; }
+
+.address{
+    grid-column-start: 4;
+    border-style: solid;
+    border-color: blue;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    width: 240px;
+    height: 97px;
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
