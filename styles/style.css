@@ -75,9 +75,44 @@ address { all: initial; }
 }
 
 .cover{
+    display: grid;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     width: 1440px;
     height: 757px;
     flex-shrink: 0;
+}
+
+.overlay{
+    display: grid;
+    border-style: solid;
+    border-color: red;
+}
+
+.cover__title{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.cover__description-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+}
+.bet-button{
+    width: 257px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
 }
