@@ -85,6 +85,8 @@ address { all: initial; }
 
 .overlay{
     display: grid;
+    grid-template-columns: 50px 372px 633px 78px 257px 50px;
+    grid-template-rows: 165px 115px 20px 100px 20px 100px 135px 12px 28px;
     border-style: solid;
     border-color: red;
 }
@@ -101,6 +103,8 @@ address { all: initial; }
 }
 
 .cover__description-text{
+    grid-column-start: 3;
+    grid-row-start: 9;
     color: #FFF;
     text-align: center;
     font-family: Raleway;
@@ -109,10 +113,102 @@ address { all: initial; }
     font-weight: 400;
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
+    word-spacing: 13px;
 }
+
 .bet-button{
     width: 257px;
     height: 52px;
+    grid-column-start: 5;
+    grid-row-start: 8;
     flex-shrink: 0;
     border: 1px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.letter-spacing-extended{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 60px;
+    text-transform: uppercase;
+}
+
+.aligned-text{
+    width: 1340px;
+    height: 115px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.aligned-text_center{
+    width: 1280px;
+    height: 100px;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 100px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.aligned-text_right {
+    width: 1340px;
+    height: 100px;
+    grid-column-start: 2;
+    grid-row-start: 6;
+    color: #FFF;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 100px */
+    letter-spacing: 60px;
+    text-transform: uppercase;
+}
+
+.for-ad {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.for-o {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
 }
