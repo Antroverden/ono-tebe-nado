@@ -181,7 +181,7 @@ address {
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 100px */
+    line-height: 100%;
     letter-spacing: 60px;
     text-transform: uppercase;
 }
