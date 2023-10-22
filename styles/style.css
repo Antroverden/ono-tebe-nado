@@ -1,8 +1,6 @@
 .body {
     width: 1440px;
     height: 2844px;
-    border-style: solid;
-    border-color: blue;
 }
 
 .header {
@@ -11,56 +9,51 @@
     width: 1340px;
     height: 109px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: blue;
     margin: 92px auto;
 }
 
 .header__menu {
-    border-style: solid;
-    border-color: blue;
-    width: 388px;
+    width: 395px;
     height: 23px;
     flex-shrink: 0;
     margin: auto 0;
 }
 
-.header__links-list{
+.header__links-list {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: 0.3px;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     float: left;
     list-style: none;
 }
 
-.header__links-list-item{
+.header__links-list-item {
     float: left;
     margin-left: 30px;
     list-style: circle;
     text-decoration: underline;
 }
 
-.header__logo-image{
+.header__logo-image {
     width: 148px;
     height: 105px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: blue;
     grid-column-start: 2;
 }
 
-address { all: initial; }
+address {
+    all: initial;
+}
 
-.address{
+.address {
     grid-column-start: 4;
-    border-style: solid;
-    border-color: blue;
     color: #000;
     font-family: Raleway;
     font-size: 18px;
@@ -70,11 +63,13 @@ address { all: initial; }
     width: 240px;
     height: 97px;
     flex-shrink: 0;
-    margin-top: 5px;
-    margin-bottom: 7px;
 }
 
-.cover{
+.address-margin-top {
+    margin-top: 5px;
+}
+
+.cover {
     display: grid;
     background-image: url(../images/cover.jpg);
     background-size: cover;
@@ -84,13 +79,13 @@ address { all: initial; }
     margin-bottom: 180px;
 }
 
-.overlay{
+.overlay {
     display: grid;
     grid-template-columns: 50px 372px 633px 78px 257px 50px;
-    grid-template-rows: 165px 115px 20px 100px 20px 100px 135px 12px 28px;
+    grid-template-rows: 165px 115px 13px 100px 28px 100px 135px 12px 28px;
 }
 
-.cover__title{
+.cover__title {
     color: #FFF;
     font-family: Raleway;
     font-size: 100px;
@@ -101,21 +96,21 @@ address { all: initial; }
     text-transform: uppercase;
 }
 
-.cover__description-text{
+.cover__description-text {
     grid-column-start: 3;
     grid-row-start: 9;
     color: #FFF;
-    text-align: center;
+    width: 640px;
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
-    word-spacing: 13px;
+    word-spacing: 17px;
 }
 
-.bet-button{
+.bet-button {
     width: 257px;
     height: 52px;
     grid-column-start: 5;
@@ -133,7 +128,7 @@ address { all: initial; }
     text-transform: uppercase;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     color: #FFF;
     font-family: Raleway;
     font-size: 100px;
@@ -144,7 +139,7 @@ address { all: initial; }
     text-transform: uppercase;
 }
 
-.aligned-text{
+.aligned-text {
     width: 1340px;
     height: 115px;
     grid-column-start: 2;
@@ -159,8 +154,8 @@ address { all: initial; }
     text-transform: uppercase;
 }
 
-.aligned-text_center{
-    width: 1280px;
+.aligned-text_center {
+    width: 1340px;
     height: 100px;
     grid-column-start: 2;
     grid-row-start: 4;
@@ -176,7 +171,7 @@ address { all: initial; }
 }
 
 .aligned-text_right {
-    width: 1340px;
+    width: 1400px;
     height: 100px;
     grid-column-start: 2;
     grid-row-start: 6;
@@ -219,8 +214,6 @@ address { all: initial; }
     width: 1340px;
     height: 579px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: red;
     margin-left: 50px;
     margin-bottom: 181px;
 }
@@ -271,27 +264,24 @@ address { all: initial; }
 }
 
 .card_type_film {
-    background:
-            linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-            url(../images/card-lot-01.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
     background-size: cover;
     grid-column-start: 1;
     grid-row-start: 2;
 }
 
-.card_type_book{
-    background:
-            linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-            url(../images/card-lot-02.jpg);
+.card_type_book {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
     background-size: cover;
     grid-column-start: 3;
     grid-row-start: 2;
 }
 
 .card_type_picture {
-    background:
-            linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-            url(../images/card-lot-03.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
     background-size: cover;
     grid-column-start: 5;
     grid-row-start: 2;
@@ -307,26 +297,22 @@ address { all: initial; }
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border-style: solid;
-    border-color: red;
     grid-row-start: 4;
     margin-left: 40px;
 }
 
 .about {
     display: grid;
-    grid-template-columns: 430px 25px 885px;
+    grid-template-columns: 95px 335px 25px 885px;
     grid-template-rows: 100px 387px;
     width: 1340px;
     height: 487px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: red;
     margin-left: 50px;
     margin-bottom: 180px;
 }
 
-.about__title{
+.about__title {
     color: #000;
     font-family: Raleway;
     font-size: 40px;
@@ -337,11 +323,11 @@ address { all: initial; }
     margin-bottom: 100px;
 }
 
-.margin-bottom-text-about{
+.margin-bottom-text-about {
     margin-bottom: 25px;
 }
 
-.about__text{
+.about__text {
     height: auto;
     color: #000;
     font-family: Raleway;
@@ -358,7 +344,7 @@ address { all: initial; }
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 1;
     flex-shrink: 0;
     fill: #000;
@@ -366,17 +352,17 @@ address { all: initial; }
     border-radius: 50%
 }
 
-.about__logo-image{
+.about__logo-image {
     display: block;
     width: 148px;
     height: 114px;
     flex-shrink: 0;
 }
 
-.about-title-and-text{
+.about-title-and-text {
     width: 885px;
     height: 388px;
-    grid-column-start: 3;
+    grid-column-start: 4;
     grid-row-start: 2;
 }
 
@@ -386,37 +372,39 @@ address { all: initial; }
     width: 1340px;
     height: 97px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: red;
     margin-left: 50px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
     text-align: center;
     width: 149px;
-    border-style: solid;
-    border-color: red;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.footer__menu-list-item{
+.footer__menu-list-item {
     list-style: none;
+
 }
 
-.footer__menu-link{
+.footer__menu-link {
     text-decoration: underline;
 }
 
-.footer__social-list{
+.footer__social-list {
     display: flex;
     justify-content: space-between;
     width: 240px;
     height: 48px;
     flex-shrink: 0;
-    border-style: solid;
-    border-color: red;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
     width: 48px;
     list-style: none;
 }
