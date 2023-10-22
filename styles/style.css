@@ -381,12 +381,29 @@ address { all: initial; }
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     width: 1340px;
     height: 97px;
     flex-shrink: 0;
     border-style: solid;
     border-color: red;
     margin-left: 50px;
+}
+
+.footer__menu-list{
+    text-align: center;
+    width: 149px;
+    border-style: solid;
+    border-color: red;
+}
+
+.footer__menu-list-item{
+    list-style: none;
+}
+
+.footer__menu-link{
+    text-decoration: underline;
 }
 
 .footer__social-list{
@@ -401,4 +418,5 @@ address { all: initial; }
 
 .footer__social-list-item{
     width: 48px;
+    list-style: none;
 }
