@@ -1,25 +1,25 @@
 .body {
     width: 1440px;
-    height: 2844px;
+    margin: 0 auto;
 }
 
 .header {
     display: grid;
     grid-template-columns: 597px 148px 355px 240px;
     width: 1340px;
-    height: 109px;
     flex-shrink: 0;
     margin: 92px auto;
 }
 
 .header__menu {
     width: 395px;
-    height: 23px;
     flex-shrink: 0;
     margin: auto 0;
 }
 
 .header__links-list {
+    display: flex;
+    justify-content: space-between;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -30,12 +30,10 @@
 }
 
 .header__links-list-item_no-bullit {
-    float: left;
     list-style: none;
 }
 
 .header__links-list-item {
-    float: left;
     margin-left: 30px;
     list-style: circle;
     text-decoration: underline;
@@ -48,10 +46,6 @@
     grid-column-start: 2;
 }
 
-address {
-    all: initial;
-}
-
 .address {
     grid-column-start: 4;
     color: #000;
@@ -61,7 +55,6 @@ address {
     font-weight: 400;
     line-height: 24px; /* 135% */
     width: 240px;
-    height: 97px;
     flex-shrink: 0;
 }
 
@@ -113,7 +106,7 @@ address {
 
 .bet-button {
     width: 257px;
-    height: 52px;
+    min-height: 52px;
     grid-column-start: 5;
     grid-row-start: 8;
     flex-shrink: 0;
@@ -142,7 +135,6 @@ address {
 
 .aligned-text {
     width: 1340px;
-    height: 115px;
     grid-column-start: 2;
     grid-row-start: 2;
     color: #FFF;
@@ -157,7 +149,6 @@ address {
 
 .aligned-text_center {
     width: 1340px;
-    height: 100px;
     grid-column-start: 2;
     grid-row-start: 4;
     color: #FFF;
@@ -173,7 +164,6 @@ address {
 
 .aligned-text_right {
     width: 1400px;
-    height: 100px;
     grid-column-start: 2;
     grid-row-start: 6;
     color: #FFF;
@@ -213,7 +203,6 @@ address {
     grid-template-columns: 430px 25px 430px 25px 430px;
     grid-template-rows: 74px 450px 30px 15px;
     width: 1340px;
-    height: 579px;
     flex-shrink: 0;
     margin-left: 50px;
     margin-bottom: 181px;
@@ -234,7 +223,7 @@ address {
     display: flex;
     flex-direction: column;
     width: 430px;
-    height: 450px;
+
     flex-shrink: 0;
     padding: 50px 40px;
 }
@@ -253,7 +242,6 @@ address {
 
 .card-text {
     width: 350px;
-    height: auto;
     flex-shrink: 0;
     color: #FFF;
     font-family: Raleway, sans-serif;
@@ -291,7 +279,6 @@ address {
 .lots__look-more-link {
     text-decoration: underline;
     width: 250px;
-    height: 23px;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 20px;
@@ -307,7 +294,6 @@ address {
     grid-template-columns: 95px 335px 25px 885px;
     grid-template-rows: 100px 387px;
     width: 1340px;
-    height: 487px;
     flex-shrink: 0;
     margin-left: 50px;
     margin-bottom: 180px;
@@ -329,7 +315,6 @@ address {
 }
 
 .about__text {
-    height: auto;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 20px;
@@ -362,7 +347,6 @@ address {
 
 .about-title-and-text {
     width: 885px;
-    height: 388px;
     grid-column-start: 4;
     grid-row-start: 2;
 }
@@ -371,14 +355,12 @@ address {
     display: flex;
     justify-content: space-between;
     width: 1340px;
-    height: 97px;
     flex-shrink: 0;
     margin-left: 50px;
 }
 
 .footer__menu-list {
     text-align: center;
-    width: 149px;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -400,11 +382,9 @@ address {
     display: flex;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
     flex-shrink: 0;
 }
 
 .footer__social-list-item {
-    width: 48px;
     list-style: none;
 }
