@@ -325,12 +325,11 @@
 
 .footer__social-list {
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
     width: 240px;
     flex-shrink: 0;
 }
 
 .footer__social-list-item {
-    width: 48px;
     list-style: none;
 }
