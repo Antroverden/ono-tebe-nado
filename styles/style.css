@@ -76,7 +76,7 @@
 .overlay {
     display: grid;
     grid-template-columns: 50px 372px 633px 78px 257px 50px;
-    grid-template-rows: 165px 115px 13px 100px 28px 100px 135px 12px 28px;
+    grid-template-rows: 165px 115px 13px 100px 22px 106px 135px 12px 28px;
 }
 
 .cover__title {
@@ -85,7 +85,7 @@
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 115%; /* 115px */
+    line-height: 115%;
     letter-spacing: 30px;
     text-transform: uppercase;
 }
@@ -151,7 +151,6 @@
     grid-column-start: 2;
     grid-row-start: 6;
     text-align: right;
-    line-height: 100%;
 }
 
 .lots {
