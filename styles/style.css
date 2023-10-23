@@ -63,12 +63,11 @@
 .cover {
     display: grid;
     grid-template-columns: 50px 372px 633px 78px 257px 50px;
-    grid-template-rows: 165px 115px 13px 100px 22px 106px 135px 12px 28px;
+    grid-template-rows: 165px 115px 13px 100px 22px 106px 135px 12px 28px 62px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/cover.jpg);
     background-size: cover;
     width: 1440px;
-    min-height: 757px;
     flex-shrink: 0;
     margin-bottom: 180px;
 }
