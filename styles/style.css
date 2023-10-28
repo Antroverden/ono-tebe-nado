@@ -122,6 +122,10 @@
     letter-spacing: 60px;
 }
 
+.letter-spacing-extended-fifty {
+    letter-spacing: 50px;
+}
+
 .aligned-text_center {
     grid-column-start: 2;
     grid-row-start: 4;
@@ -129,7 +133,7 @@
 }
 
 .aligned-text_right {
-    width: 1400px;
+    width: 1390px;
     grid-column-start: 2;
     grid-row-start: 6;
     text-align: right;
