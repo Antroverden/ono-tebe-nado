@@ -21,7 +21,6 @@
     display: flex;
     justify-content: space-between;
     color: #000;
-    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -47,7 +46,6 @@
 .address {
     grid-column-start: 4;
     color: #000;
-    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -74,7 +72,6 @@
 
 .cover__title {
     color: #FFF;
-    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +85,6 @@
     grid-row-start: 9;
     color: #FFF;
     width: 640px;
-    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +103,6 @@
     background-color: transparent;
     color: #FFF;
     text-align: center;
-    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -120,7 +115,6 @@
     grid-column-start: 2;
     grid-row-start: 2;
     color: #FFF;
-    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -158,7 +152,6 @@
 
 .lots__heading {
     color: #000;
-    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -178,7 +171,6 @@
 .card-title {
     width: 350px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -191,7 +183,6 @@
     width: 350px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -227,7 +218,6 @@
     text-decoration: underline;
     width: 250px;
     color: #000;
-    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -245,7 +235,6 @@
     margin-left: 50px;
     margin-bottom: 180px;
     color: #000;
-    font-family: Raleway, sans-serif;
     font-style: normal;
     line-height: normal;
 }
@@ -303,7 +292,6 @@
 .footer__menu-list {
     text-align: center;
     color: #000;
-    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
