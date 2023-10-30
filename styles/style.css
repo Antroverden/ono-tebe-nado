@@ -111,6 +111,7 @@
 }
 
 .aligned-text {
+    display: block;
     width: 1340px;
     grid-column-start: 2;
     grid-row-start: 2;
@@ -132,16 +133,14 @@
 }
 
 .aligned-text_center {
-    grid-column-start: 2;
-    grid-row-start: 4;
     text-align: center;
+    margin-top: 12px;
 }
 
 .aligned-text_right {
     width: 1390px;
-    grid-column-start: 2;
-    grid-row-start: 6;
     text-align: right;
+    margin-top: 5px;
 }
 
 .lots {
@@ -211,6 +210,7 @@
 }
 
 .lots__look-more-link {
+    display: block;
     color: #000;
     font-size: 20px;
     font-style: normal;
@@ -289,6 +289,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 90px;
 }
 
 .list-style_none_bullit {
