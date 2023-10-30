@@ -27,9 +27,16 @@
     line-height: normal;
 }
 
+.list-style_none_bullit {
+    list-style: none;
+}
+
 .header__links-list-item {
     list-style: circle;
-    text-decoration: underline;
+}
+
+.link {
+    text-underline-position: under;
 }
 
 .header__logo-image {
@@ -290,10 +297,6 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 90px;
-}
-
-.list-style_none_bullit {
-    list-style: none;
 }
 
 .footer__social-list {
